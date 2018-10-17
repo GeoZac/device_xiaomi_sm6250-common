@@ -73,7 +73,7 @@ PRODUCT_COPY_FILES += \
 
 # AVB
 PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.software.verified_boot.xml:system/etc/permissions/android.software.verified_boot.xml
+    frameworks/native/data/etc/android.software.verified_boot.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.software.verified_boot.xml
 
 # Component override
 PRODUCT_COPY_FILES += \
