@@ -444,5 +444,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
+# XiaomiParts
+PRODUCT_PACKAGES += \
+    XiaomiParts \
+    init.xiaomiparts.rc \
+    init.xiaomiparts.sh
+
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/sm6250-common/sm6250-common-vendor.mk)
