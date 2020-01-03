@@ -55,4 +55,15 @@
 
     </PreferenceCategory>
 
+    <com.aicp.gear.preference.SystemSettingSwitchPreference
+        android:key="pulse_ambient_light"
+        android:defaultValue="false"
+        android:title="@string/pulse_ambient_light_title" />
+
+    <com.aicp.gear.preference.SystemSettingColorPickerPreference
+        android:key="pulse_ambient_light_color"
+        android:title="@string/pulse_ambient_light_color_title"
+        android:defaultValue="0xFF3980FF"
+        android:dependency="pulse_ambient_light" />
+
 </PreferenceScreen>
