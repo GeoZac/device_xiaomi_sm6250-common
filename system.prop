@@ -133,6 +133,7 @@ persist.dbg.wfc_avail_ovr=1
 
 # IORap
 iorapd.perfetto.enable=true
+iorapd.readahead.enable=true
 
 # Media
 debug.stagefright.ccodec=1
