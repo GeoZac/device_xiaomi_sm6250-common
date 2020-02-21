@@ -57,6 +57,12 @@
     </PreferenceCategory>
 
     <com.aicp.gear.preference.SystemSettingSwitchPreference
+        android:key="pulse_on_new_tracks"
+        android:defaultValue="false"
+        android:summary="@string/pulse_on_new_tracks_summary"
+        android:title="@string/pulse_on_new_tracks_title" />
+
+    <com.aicp.gear.preference.SystemSettingSwitchPreference
         android:key="pulse_ambient_light"
         android:defaultValue="false"
         android:title="@string/pulse_ambient_light_title" />
