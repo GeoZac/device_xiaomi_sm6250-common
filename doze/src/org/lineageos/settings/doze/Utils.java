@@ -38,6 +38,7 @@ public final class Utils {
 
     protected static final String WAKE_ON_GESTURE_KEY = "wake_on_gesture";
     protected static final String CATEG_PROX_SENSOR = "proximity_sensor";
+    protected static final String CATEG_AMBIENT_LIGHT = "pulse_ambient_light";
 
     protected static final String GESTURE_PICK_UP_KEY = "gesture_pick_up";
     protected static final String GESTURE_HAND_WAVE_KEY = "gesture_hand_wave";
