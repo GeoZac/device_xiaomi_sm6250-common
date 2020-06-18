@@ -40,3 +40,6 @@
 
 # Context Hub
 /vendor/bin/hw/android\.hardware\.contexthub@1\.1-service\.generic                                      u:object_r:hal_contexthub_default_exec:s0
+
+# Touchboost
+/sys/module/msm_performance/parameters/touchboost		            u:object_r:sysfs_touchboost:s0
