@@ -100,6 +100,7 @@
             android:min="1"
             aicpextras:unitsLeft=""
             aicpextras:unitsRight="sec"
+            aicpextras:iconSpaceReserved="true"
             android:defaultValue="2"
             android:dependency="pulse_ambient_light" />
 
@@ -110,6 +111,7 @@
             android:min="0"
             aicpextras:unitsLeft=""
             aicpextras:unitsRight="times"
+            aicpextras:iconSpaceReserved="true"
             android:defaultValue="0"
             android:dependency="pulse_ambient_light" />
 
