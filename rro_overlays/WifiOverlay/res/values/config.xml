@@ -23,6 +23,12 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Boolean indicating whether the wifi chipset has 5GHz frequency band support -->
     <bool name="config_wifi5ghzSupport" translatable="false">true</bool>
+	
+	<!-- Wifi driver supports 6GHz band for softap -->
+    <bool name="config_wifiSoftap6ghzSupported" translatable="false">true</bool>
+
+    <!-- Wifi driver Automatic channel selection (ACS) for softap to include DFS channels -->
+    <bool name="config_wifiSoftapAcsIncludeDfs" translatable="false">true</bool>
 
     <!-- Boolean indicating whether the wifi chipset has background scan support -->
     <bool name="config_wifi_background_scan_support" translatable="false">true</bool>
@@ -41,4 +47,10 @@
 
     <!-- Enable 802.11ac for Wifi hotspot (SAP) -->
     <bool name="config_wifi_softap_ieee80211ac_supported" translatable="false">true</bool>
+	
+    <!-- Wifi driver supports WPA3 Simultaneous Authentication of Equals (WPA3-SAE) for softap -->
+    <bool name="config_wifi_softap_sae_supported" translatable="false">true</bool>
+
+    <!-- Integer indicating maximum hardware supported client number of soft ap -->
+    <integer name="config_wifiHardwareSoftapMaxClientCount" translatable="false">32</integer>
 </resources>
