@@ -1,6 +1,9 @@
 allow system_app vendor_default_prop:file { getattr open read };
 allow system_app vendor_default_prop:file {map};
 
+# Fastcharge
+allow system_app sysfs_fcharge:file { open read getattr write };
+
 # FPS Info
 allow system_app sysfs_fps:file rw_file_perms;
 
