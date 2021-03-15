@@ -217,6 +217,19 @@
          @see https://www.w3.org/TR/SVG/paths.html#PathData
     -->
     <string name="config_mainBuiltInDisplayCutout">
+        M 0 28
+        A 1 1 0 0 0 0 100
+        A 1 1 0 0 0 0 28
+        Z
+    </string>
+	
+	<!-- Like config_mainBuiltInDisplayCutout, but this path is used to report the
+         one single bounding rect per device edge to the app via
+         {@link DisplayCutout#getBoundingRect}. Note that this path should try to match the visual
+         appearance of the cutout as much as possible, and may be smaller than
+         config_mainBuiltInDisplayCutout
+         -->
+    <string name="config_mainBuiltInDisplayCutoutRectApproximation">
         M 0,0 H -36 V 100 H 36 V 0 H 0 Z
     </string>
 
