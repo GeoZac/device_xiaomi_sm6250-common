@@ -1,0 +1,6 @@
+runtime_resource_overlay {
+    name: "LiveDisplayOverlay",
+    theme: "LiveDisplayOverlay",
+    sdk_version: "current",
+    product_specific: true
+}
