@@ -162,10 +162,6 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service \
     android.hardware.drm@1.3-service.clearkey
 
-# Exclude sensor from InputManager
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
-
 # Fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
@@ -407,6 +403,10 @@ PRODUCT_COPY_FILES += \
 # Vibrator
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.vibrator.service
+
+# Exclude sensor from InputManager
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
 
 # VNDK
 PRODUCT_COPY_FILES += \
