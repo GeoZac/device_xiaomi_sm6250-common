@@ -428,6 +428,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
 
+# Vendor service manager
+PRODUCT_PACKAGES += \
+    vndservicemanager
+
 # VNDK
 PRODUCT_COPY_FILES += \
     prebuilts/vndk/v29/arm64/arch-arm64-armv8-a/shared/vndk-core/libhidlcache.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhidlcache.so
@@ -476,5 +480,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
-# Get non-open-source specific aspects
+# Inherit proprietary targets
 $(call inherit-product, vendor/xiaomi/sm6250-common/sm6250-common-vendor.mk)
