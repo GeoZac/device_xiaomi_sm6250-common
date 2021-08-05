@@ -54,3 +54,6 @@ sys.thermal.                            u:object_r:thermal_engine_prop:s0
 
 # Wlan
 persist.vendor.wigig.npt.enable         u:object_r:vendor_default_prop:s0
+
+# Thermal
+vendor.thermal.                         u:object_r:vendor_thermal_prop:s0
