@@ -11,4 +11,5 @@ type sysfs_msm_wlan, sysfs_type, fs_type;
 type sysfs_power_stats, sysfs_type, fs_type;
 type sysfs_power_stats_ignore, sysfs_type, fs_type;
 
+# Thermal HAL
 type thermal_link_device, dev_type;

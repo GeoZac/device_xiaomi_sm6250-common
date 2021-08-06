@@ -406,7 +406,7 @@ PRODUCT_PACKAGES += \
 
 # Thermal HAL
 PRODUCT_PACKAGES += \
-    android.hardware.thermal@2.0-service.pixel
+    android.hardware.thermal@2.0-service.xiaomi_sm6250
 
 # Touchscreen
 PRODUCT_COPY_FILES += \
