@@ -56,7 +56,7 @@
 
     </PreferenceCategory>
 
-    <com.aicp.gear.preference.SystemSettingSwitchPreference
+    <com.aicp.gear.preference.SecureSettingSwitchPreference
         android:key="pulse_on_new_tracks"
         android:defaultValue="false"
         android:summary="@string/pulse_on_new_tracks_summary"
@@ -66,20 +66,20 @@
         android:key="ambient_light"
         android:title="@string/pulse_ambient_light_enable_title">
 
-        <com.aicp.gear.preference.SystemSettingSwitchPreference
+        <com.aicp.gear.preference.SecureSettingSwitchPreference
             android:key="pulse_ambient_light"
             android:defaultValue="false"
             android:summary="@string/pulse_ambient_light_summary"
             android:title="@string/pulse_ambient_light_title" />
 
-        <com.aicp.gear.preference.SystemSettingSwitchPreference
+        <com.aicp.gear.preference.SecureSettingSwitchPreference
             android:key="pulse_ambient_light_color_automatic"
             android:defaultValue="false"
             android:title="@string/pulse_ambient_light_color_automatic_title"
             android:summary="@string/pulse_ambient_light_color_automatic_summary"
             android:dependency="pulse_ambient_light" />
 
-        <com.aicp.gear.preference.SystemSettingIntListPreference
+        <com.aicp.gear.preference.SecureSettingIntListPreference
             android:key="pulse_ambient_light_color_mode"
             android:title="@string/pulse_ambient_light_color_mode_title"
             android:entries="@array/pulse_ambient_light_color_mode_entries"
@@ -87,13 +87,13 @@
             android:defaultValue="1"
             android:dependency="pulse_ambient_light" />
 
-        <com.aicp.gear.preference.SystemSettingColorPickerPreference
+        <com.aicp.gear.preference.SecureSettingColorPickerPreference
             android:key="pulse_ambient_light_color"
             android:title="@string/pulse_ambient_light_color_title"
             android:defaultValue="0xFF3980FF"
             android:dependency="pulse_ambient_light" />
 
-        <com.aicp.gear.preference.SystemSettingSeekBarPreference
+        <com.aicp.gear.preference.SecureSettingSeekBarPreference
             android:key="pulse_ambient_light_duration"
             android:title="@string/pulse_ambient_light_duration_title"
             android:max="10"
@@ -104,7 +104,7 @@
             android:defaultValue="2"
             android:dependency="pulse_ambient_light" />
 
-        <com.aicp.gear.preference.SystemSettingSeekBarPreference
+        <com.aicp.gear.preference.SecureSettingSeekBarPreference
             android:key="pulse_ambient_light_repeat_count"
             android:title="@string/pulse_ambient_light_repeat_count_title"
             android:max="10"
@@ -115,14 +115,14 @@
             android:defaultValue="0"
             android:dependency="pulse_ambient_light" />
 
-        <com.aicp.gear.preference.SystemSettingSwitchPreference
+        <com.aicp.gear.preference.SecureSettingSwitchPreference
             android:key="pulse_ambient_light_repeat_direction"
             android:defaultValue="false"
             android:title="@string/pulse_ambient_light_repeat_direction_title"
             android:summary="@string/pulse_ambient_light_repeat_direction_summary"
             android:dependency="pulse_ambient_light" />
 
-        <com.aicp.gear.preference.SystemSettingSeekBarPreference
+        <com.aicp.gear.preference.SecureSettingSeekBarPreference
             android:key="pulse_ambient_light_width"
             android:title="@string/pulse_ambient_light_width_title"
             android:max="200"
