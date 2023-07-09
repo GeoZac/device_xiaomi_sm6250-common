@@ -5,12 +5,24 @@
     "branch": "lineage-23.1"
   },
   {
+    "repository": "crdroidandroid/android_device_xiaomi_miuicamera",
+    "target_path": "device/xiaomi/miuicamera-miatoll",
+    "branch": "16.0-miatoll",
+    "remote": "crdroid-gitlab"
+  },
+  {
     "repository": "crdroidandroid/android_hardware_xiaomi",
     "target_path": "hardware/xiaomi"
   },
   {
     "repository": "crdroidandroid/android_kernel_xiaomi_sm6250",
     "target_path": "kernel/xiaomi/sm6250"
+  },
+  {
+    "repository": "crdroidandroid/proprietary_vendor_xiaomi_miuicamera",
+    "target_path": "vendor/xiaomi/miuicamera-miatoll",
+    "branch": "16.0-miatoll",
+    "remote": "crdroid-gitlab"
   },
   {
     "repository": "crdroidandroid/proprietary_vendor_xiaomi_sm6250-common",
