@@ -28,13 +28,14 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.UserHandle;
 import android.provider.Settings;
+import android.widget.CompoundButton;
+import android.widget.CompoundButton.OnCheckedChangeListener;
 import androidx.preference.ListPreference;
 import androidx.preference.SwitchPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceFragment;
 import androidx.preference.Preference.OnPreferenceChangeListener;
-import android.widget.Switch;
 import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.PreferenceCategory;
@@ -47,7 +48,7 @@ import com.android.settingslib.widget.OnMainSwitchChangeListener;
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
 
 public class DozeSettingsFragment extends PreferenceFragment implements OnPreferenceChangeListener,
-        OnMainSwitchChangeListener {
+        OnCheckedChangeListener {
 
     private static final String PULSE_AMBIENT_LIGHT_COLOR_MODE = "pulse_ambient_light_color_mode";
     private static final String PULSE_AMBIENT_LIGHT_COLOR = "pulse_ambient_light_color";
@@ -126,7 +127,7 @@ public class DozeSettingsFragment extends PreferenceFragment implements OnPrefer
     }
 
     @Override
-    public void onSwitchChanged(Switch switchView, boolean isChecked) {
+    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
         Utils.enableDoze(getActivity(), isChecked);
         Utils.checkDozeService(getActivity());
 
