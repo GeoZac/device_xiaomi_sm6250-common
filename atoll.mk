@@ -60,8 +60,7 @@ PRODUCT_COPY_FILES += \
 TARGET_BUILD_DEVICE_AS_WEBCAM := true
 
 PRODUCT_PACKAGES += \
-    android.hardware.camera.provider@2.4-impl \
-    android.hardware.camera.provider@2.4-service_64 \
+    android.hardware.camera.provider-service.lineage
 
 $(call soong_config_set_bool,camera,override_format_from_reserved,true)
 $(call soong_config_set,libcameraservice,ext_lib,//$(LOCAL_PATH):libcameraservice_extension.miatoll)
