@@ -1,0 +1,20 @@
+[
+  {
+    "remote": "lineage",
+    "repository": "LineageOS/android_hardware_sony_timekeep",
+    "target_path": "hardware/sony/timekeep",
+    "revision": "lineage-22.2"
+  },
+  {
+    "remote": "lineage",
+    "repository": "LineageOS/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "revision": "lineage-22.2"
+  },
+  {
+    "remote": "lineage",
+    "repository": "LineageOS/android_kernel_xiaomi_sm6250",
+    "target_path": "kernel/xiaomi/sm6250",
+    "revision": "lineage-22.2"
+  }
+]
