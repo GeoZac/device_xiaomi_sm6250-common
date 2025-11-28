@@ -168,7 +168,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SM6250Aperture \
     SM6250Launcher \
-    SM6250LineageDialer \
     SM6250LineageSDK
 
 # Partitions
