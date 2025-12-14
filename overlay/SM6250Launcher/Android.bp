@@ -1,0 +1,6 @@
+runtime_resource_overlay {
+    name: "SM6250Launcher",
+    theme: "SM6250Launcher",
+    sdk_version: "current",
+    product_specific: true,
+}
