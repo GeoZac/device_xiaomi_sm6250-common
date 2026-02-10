@@ -2,7 +2,7 @@
   {
     "repository": "LineageOS/android_hardware_sony_timekeep",
     "target_path": "hardware/sony/timekeep",
-    "branch": "lineage-23.1"
+    "branch": "lineage-23.2"
   },
   {
     "repository": "crdroidandroid/android_device_xiaomi_miuicamera",
@@ -16,8 +16,9 @@
     "branch": "sony-1.2"
   },
   {
-    "repository": "crdroidandroid/android_hardware_xiaomi",
-    "target_path": "hardware/xiaomi"
+    "repository": "LineageOS/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "branch": "lineage-23.2"
   },
   {
     "repository": "crdroidandroid/android_kernel_xiaomi_sm6250",
